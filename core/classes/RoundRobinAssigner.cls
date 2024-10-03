@@ -6,7 +6,7 @@ public without sharing class RoundRobinAssigner implements IThreadSafeCacheVisit
   private static final Integer SENTINEL_INDEX = -1;
   private static final String OWNER_ID = 'OwnerId';
 
-  /**
+  
    * Implement this interface to define an assignment "pool"
    * for round robin assigning owners to records
    */
